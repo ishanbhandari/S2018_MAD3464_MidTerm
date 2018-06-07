@@ -17,6 +17,12 @@ public class C0738092_MidTerm_MAD3464 {
     public static void main(String[] args) {
         LambtonStringTools lst= new LambtonStringTools();
         lst.reverse();
+        
+        
+        initials c1=new initials();
+        c1.initials ("here is work of initials");
+        
+        
     }
     
 }

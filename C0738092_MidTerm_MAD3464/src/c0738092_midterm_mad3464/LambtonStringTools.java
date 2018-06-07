@@ -48,6 +48,17 @@ public class LambtonStringTools{
                 System.out.println("initialized String: " + t.charAt(0));
             }   
         }
+        
+        public void mostFrequent(String s)
+        {
+            this.string1= s;
+            char[] charArray = ();
+            
+            
+            
+        }
+        
+        
     }
             
     
