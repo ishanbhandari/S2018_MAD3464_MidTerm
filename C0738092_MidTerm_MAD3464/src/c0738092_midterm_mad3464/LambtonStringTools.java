@@ -31,6 +31,7 @@ public class LambtonStringTools{
         for (int i=0; i<charArray.length; i++)
             {
             
+                
             }
         }
         
@@ -45,21 +46,45 @@ public class LambtonStringTools{
                 temp =split[i];
                 t= temp.toUpperCase();
                 
-                System.out.println("initialized String: " + t.charAt(0));
+                System.out.println(t.charAt(0) );
             }   
         }
         
         public void mostFrequent(String s)
         {
             this.string1= s;
-            char[] charArray = ();
+            char[] charArray;
+            int count=0;
             
+            charArray =s.toCharArray();
+            for (int i=0; i<charArray.length-1 ;i++)
+            { 
+                for (int j=1; j<charArray.length-1 ;j++)
             
-            
+            if (charArray[i] == (charArray[j]))
+                count = count+1;
+                
+                System.out.println(charArray[i]+ "---->" + count);
+                else ()
+                     
+                System.out.println(count);
+                
+            }
         }
+}
+
+                
+                
+            
+                
+
+
+
+            
         
         
-    }
+        
+    
             
     
 

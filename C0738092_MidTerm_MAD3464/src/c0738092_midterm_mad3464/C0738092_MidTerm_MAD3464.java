@@ -22,7 +22,10 @@ public class C0738092_MidTerm_MAD3464 {
         initials c1=new initials();
         c1.initials ("here is work of initials");
         
+        binaryToDecimal t1= new binaryToDecimal();
+        t1.binaryToDecimal("hii");
         
-    }
+        
     
-}
+
+   
